@@ -1,0 +1,63 @@
+@import "bootstrap.min.css";
+
+html,
+body {
+    height: 100%;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.navbar { 
+	background-color: #EBEBEB;
+	opacity: 0.6;
+}	
+
+.navbar-brand {
+	color: #2F2F2F;
+	font-size: 30px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #2F2F2F;
+	font-size: 20px;
+}
+
+.controls {
+	margin-top: 10px;
+}
+
+.thumbnail {
+	margin-top: 50px;
+	border-top: 1px solid #dddddd;
+	outline: none;
+}
+
+.thumbnail{
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 1px;
+}
